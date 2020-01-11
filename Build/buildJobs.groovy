@@ -17,13 +17,6 @@ pipelineJob("addressbook_build"){
             scriptPath("Jobs/Jenkinsfile_build.groovy")
 
         }
-        publishers{
-            logRotator{
-                numToKeep(15)
-                artifactNumToKeep(1)
-            }
-
-        }
 
 
 
